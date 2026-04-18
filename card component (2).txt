@@ -1,0 +1,11 @@
+<style>
+card{
+border:1px solid gray;
+padding:15 px;
+width:200 px;
+}
+</style>
+<div class="card">
+<h3>title<?<h3>
+<p>decripition</p>
+</div>
