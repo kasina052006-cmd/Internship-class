@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+enter your birth year: <input type="number" id="Year">
+<button onclick="calc()">calculate</button>
+<p id="result"></p>
+
+<script>
+function calc() {
+    let Year = document.getElementById("Year").value;
+    let age = 2026 - Number(Year);
+    document.getElementById("result").innerHTML = "age is: " + age;
+}
+</script>
+</body>
+</html>

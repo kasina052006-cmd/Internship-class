@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form onsubmit="return validateForm()">
+    Name: <input type="text" id="name"><br><br>
+    password: <input type="password" id="pass"><br><br>  
+    <button type="submit">submit</button>
+</form>
+
+<script>
+function validateForm() {
+    let = document.getElementById("name").value;
+    var pass = document.getElementById("pass").value;
+ 
+    let (name === "" || pass === "") {
+
+        alert("Please fill in all fields");
+        return false;
+    }
+    alert("Form submitted");
+    return true;
+}
+</script>
+</body>
+</html>
