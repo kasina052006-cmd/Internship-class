@@ -1,171 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio</title>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"/>
-
-<style>
-body{
-background-color:white;
-}
-
-.extra-padding{
-padding-top:150px;
-padding-bottom:50px;
-}
-
-.big-icon{
-font-size:40px;
-margin:15px;
-}
-
-.project-title{
-font-size:50px;
-margin-bottom:30px;
-}
-
-.card{
-border:2px solid gray;
-}
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
-<div class="container">
-<a class="navbar-brand fw-bold" href="#">MyPortfolio</a>
-
-<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#m">
-<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class="collapse navbar-collapse" id="m">
-<ul class="navbar-nav ms-auto">
-<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-<li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-</ul>
-</div>
-</div>
-</nav>
-
-<!-- hero -->
-<section id="about">
-<div class="container extra-padding bg-light">
-<div class="row align-items-center">
-
-<div class="col-md-6">
-<h1>Hello I am kasina</h1>
-<h3>A passionate Full Stack Developer 🚀 building modern web apps</h3>
-
-<a href="#">
-<img src="github.png" class="rounded-circle" width="50">
-</a>
-</div>
-
-<div class="col-md-6 text-center">
-<img src="download.png" class="img-fluid">
-</div>
-
-</div>
-</div>
-</section>
-
-
-<!-- skills -->
-<section id="skills" class="py-5">
-<div class="container">
-<div class="row align-items-center">
-
-<div class="col-md-6 text-center">
-<img src="Future-of-Design.gif" class="img-fluid">
-</div>
-
-<div class="col-md-6">
-<h2>WHAT I DO ?</h2>
-
-<i class="devicon-html5-plain colored big-icon"></i>
-<i class="devicon-css3-plain colored big-icon"></i>
-<i class="devicon-javascript-plain colored big-icon"></i>
-<i class="devicon-bootstrap-plain colored big-icon"></i>
-<i class="devicon-photoshop-plain colored big-icon"></i>
-<i class="devicon-mysql-plain colored big-icon"></i>
-
-<ul class="mt-3">
-<li>Full Stack Web Application</li>
-<li>UI/UX Design</li>
-<li>Animation using Unreal Engine</li>
-</ul>
-
-</div>
-</div>
-</div>
-</section>
-
-
-<!-- projects -->
-<section id="projects" class="py-5">
-<div class="container">
-
-<h1 class="text-center project-title">My Projects</h1>
-
-<div class="row g-4">
-
-<div class="col-md-4">
-<div class="card p-3 h-100">
-<h4>Ecommerce UI</h4>
-<p>Online shopping UI design</p>
-</div>
-</div>
-
-
-
-<div class="col-md-4">
-<div class="card p-3 h-100">
-<h4>Landing Page</h4>
-<p>Modern landing page design</p>
-</div>
-</div>
-
-<div class="col-md-4">
-<div class="card p-3 h-100">
-<h4>Login System</h4>
-<p>Login UI with validation</p>
-</div>
-</div>
-
-</div>
-</div>
-</section>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<section>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1>
-                        Reach Out to Me!
-                    </h1>
-                    <h5>Discuss a project or just want to say hi?</h5>
+    <nav class="bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <h1 class="text-xl font-bold">My Portfolio</h1>
+                <ul class="flex space-x-6">
+                    <li><a href="#about-me" class="hover:text-yellow-400">About Me</a></li>
+                    <li><a href="#skills" class="hover:text-yellow-400">Skills</a></li>
+                    <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="font-['Times_New_Roman']" id="about-me">
+        <div class="flex flex-row">
+            <div class="w-1/2 h-screen pt-[25vh]">
+                <h1 class="font-bold text-6xl ml-20">Hallo, I am Kasina 👋</h1>
+                <p class="p-5 text-2xl ml-5">
+                    Full-stack web developer building responsive front-end and powerful back-end applications.
+                         I create clean, user-friendly websites with modern technologies.
+                </p>
+                <div class="flex ml-20 mt-10 space-x-10 pl-[20vh]">
+                    <a href="">
+                        <img src="github.png" width="50" height="50" class="mt-2">
+                    </a>
+                    <a href="">
+                        <img src="linkedin.png" width="50" height="50" class="mt-2">
+                    </a>
+                    <a href="">
+                        <img src="gmail.jpeg" width="75" height="75">
+                    </a>
                 </div>
-                <div class="col">
-                   <img src="Future-of-Design.gif">
+            </div>
+            <div class="w-1/2">
+                <img src="about 3.gif" class="pt-[20vh] pl-[20vh]  ">
+            </div>
+        </div>
+    </section>
+    <section class="font-['Times_New_Roman']" id="skills">
+        <div class="flex flex-row">
+            <div class="w-1/2">
+                <img src="skill2.gif" class="">
+            </div>
+            <div class="w-1/2">
+                <h1 class="font-bold text-6xl ml-20">What I Do ?</h1>
+                <div class="flex gap-6 text-6xl pt-[10vh] ml-5">
+                    <link rel="stylesheet" type='text/css'
+                        href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-bootstrap-plain colored"></i>
+                    <i class="devicon-tailwindcss-plain colored"></i>
+                    <i class="devicon-photoshop-plain colored"></i>
+                    <i class="devicon-canva-plain colored"></i>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>
+                <div class="pt-[5vh] m-5 text-2xl">
+                    <h3>⚡ Full stack Web developer</h3>
+                    <h3 class="mt-2">⚡ UI/UX Design</h3>
+                    <h3 class="mt-2">⚡ Video Editing</h3>
                 </div>
             </div>
         </div>
     </section>
-</div>
-</div>
-</div>
-</section>
+    <section class="font-['Times_New_Roman']" id="projects">
+        <div>
+            <h1 class="font-bold text-6xl pt-[20vh] pl-[10vh] mb-10">
+                My Projects
+            </h1>
+            <div class="flex justify-center w-full flex-wrap">
+                <div class="w-[300px] p-2 border rounded shadow m-5 hover:shadow-xl hover:scale-105 transition duration-300">
+                    <h5 class="text-2xl font-bold p-4">College ERP System</h5>
+                    <p>⚡ A College ERP System streamlines academic and administrative processes.</p>
+                </div>
+                <div class="w-[300px] p-2 border rounded shadow m-5 hover:shadow-xl hover:scale-105 transition duration-300">
+                    <h5 class="text-2xl font-bold p-4">E-commerce</h5>
+                    <p>⚡ Buy and sell products online with cart and payments.</p>
+                </div>
+                <div class="w-[300px] p-2 border rounded shadow m-5 hover:shadow-xl hover:scale-105 transition duration-300">
+                    <h5 class="text-2xl font-bold p-4">Student Management System</h5>
+                    <p>⚡ Manage student data, attendance, and grades easily.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="flex flex-row">
+            <div class="font-['Times_New_Roman'] w-1/2">
+                <h1 class="font-bold text-7xl pt-[10vh] pl-[140vh] mb-10">contact</h1>
+                <div class="mt-[10vh] ml-[20vh] text-2xl">
+                    <h3> 🧑🏻‍💼 Kasina</h3>
+                    <h3 class="mt-2">✉️ Gmail : XXXXXX@gmail.com</h3>
+                    <h3 class="mt-2">☎️ Phone : 1234567890 </h3>
+                    <h3 class="mt-2">🏢 Address : XXXXXXXXXXXXXXXXXX</h3>
+                </div>
+            </div>
+            <div class="w-1/2 flex justify-center items-center">
+                <img src="" class="w-244 h-24 rounded-full object-cover mt-[20vh]" >
+            </div>
+        </div>
+    </section>
+    <div class="pt-[10vh]">
+        <footer class="flex justify-center p-5 bg-black text-white">
+            <p>© 2026 My Portfolio</p>
+        </footer>
+    </div>
 </body>
 </html>
